@@ -9,7 +9,7 @@
     <version>2.0.0</version>
 
     <properties>
-        <github.url>scm:git:git@dockstore/swagger-java-bitbucket-client.git</github.url>
+        <github.url>scm:git:git@github.com:dockstore/swagger-java-bitbucket-client.git</github.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dockstore-core.version>1.12.0-alpha.0</dockstore-core.version>
         <maven-failsafe.version>2.21.0</maven-failsafe.version>
