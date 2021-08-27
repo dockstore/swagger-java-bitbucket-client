@@ -9,6 +9,7 @@
     <version>1.12.0-alpha.1-SNAPSHOT</version>
 
     <properties>
+        <github.url>scm:git:git@dockstore/swagger-java-bitbucket-client.git</github.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dockstore-core.version>1.12.0-alpha.0</dockstore-core.version>
         <maven-failsafe.version>2.21.0</maven-failsafe.version>
@@ -40,6 +41,12 @@
             <url>https://repository.apache.org/content/repositories/releases/</url>
         </repository>
     </repositories>
+
+    <scm>
+        <connection>${github.url}</connection>
+        <developerConnection>${github.url}</developerConnection>
+        <url>${github.url}</url>
+    </scm>
 
     <licenses>
         <license>
